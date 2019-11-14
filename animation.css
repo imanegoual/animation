@@ -1,0 +1,201 @@
+/* On travaille sur la balise body, donc sur TOUTE la page */
+body
+{
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    text-align: center;
+}
+
+.animation_couleur {
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #008;
+    border-radius: 5%; 
+    animation: animation_couleur 5s infinite;
+    float: left;
+
+}
+
+@keyframes animation_couleur {
+    0% {
+        transform: translateX(0px);
+        background-color: aliceblue; 
+    }
+
+    25% {
+        transform: translateX(300px);
+        background-color: blue;
+    }
+    
+    40% {
+        transform: translateX(0px);
+        background-color: blueviolet;
+    }
+
+
+    100% {
+        transform: translateX(0px) rotate(180deg);
+        background-color: brown;
+    }
+}
+.animation_couleur2 {
+    margin: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: #008;
+    border-radius: 5%; 
+    animation: animation_couleur2 5s infinite;
+    float: left;
+
+}
+
+@keyframes animation_couleur2 {
+    0% {
+        transform: translateX(0px);
+        background-color: aliceblue; 
+    }
+
+    25% {
+        transform: translateY(300px);
+        background-color: blue;
+    }
+    
+    40% {
+        transform: translateX(0px);
+        background-color: blueviolet;
+    }
+
+
+    100% {
+        transform: translateX(0px) rotate(180deg);
+        background-color: brown;
+    }
+}
+
+.animation_couleur3 {
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #008;
+    border-radius: 5%; 
+    animation: animation_couleur3 5s infinite;
+    float: left;
+
+}
+
+@keyframes animation_couleur3 {
+    0% {
+        transform: translateX(0px);
+        background-color: aliceblue; 
+    }
+    25% {
+        transform: translateX(300px);
+        background-color: blue;
+    }
+    40% {
+        transform: translateX(0px);
+        background-color: blueviolet;
+    }
+    100% {
+        transform: translateX(0px) rotate(180deg);
+        background-color: brown;
+    }
+}
+
+.animation_couleur4 {
+    margin: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: #008;
+    border-radius: 5%; 
+    animation: animation_couleur4 5s infinite;
+    float: left;
+
+}
+
+@keyframes animation_couleur4 {
+    0% {
+        transform: translateX(150px) rotate(180deg);
+        background-color: aliceblue; 
+    }
+
+    25% {
+        transform: translateX(300px);
+        background-color: blue;
+    }
+    
+    40% {
+        transform: translateX(150px);
+        background-color: blueviolet;
+    }
+
+
+    100% {
+        transform: translateX(0px) rotate(180deg);
+        background-color: brown;
+    }
+}
+
+.animation_couleur5 {
+    margin: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: #008;
+    border-radius: 5%; 
+    animation: animation_couleur5 5s infinite;
+    float: right;
+
+}
+
+@keyframes animation_couleur5 {
+    0% {
+        transform: translateX(-150px) rotate(-180deg);
+        background-color: aliceblue; 
+    }
+
+    25% {
+        transform: translateX(-300px);
+        background-color: blue;
+    }
+    
+    40% {
+        transform: translateX(-150px);
+        background-color: blueviolet;
+    }
+
+
+    100% {
+        transform: translateX(0px) rotate(-180deg);
+        background-color: brown;
+    }
+}
+
+.animation_couleur7 {  
+    width: 10px;
+    height: 10px;
+    background-color: #008;
+    border-radius: 50%; 
+    animation: animation_couleur7 2s infinite;
+    float: left;
+
+}
+
+@keyframes animation_couleur7 {
+    0% {
+        background-color: white; 
+    }
+    100% {
+        transform: translateY(140px);
+        background-color: lightgray;
+    }
+}
+
+
+
+  
+
+
+
+
